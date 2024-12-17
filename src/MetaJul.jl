@@ -4,7 +4,7 @@ export Bounds
 export restrict, createBounds, valueIsWithinBounds
 include("util/bounds.jl")
 
-export Solution, Problem, Algorithm, ContinuousSolution, Component, Archive, Selection
+export Solution, Problem, Algorithm, ContinuousSolution, Component, Comparator, Archive, Selection
 include("core/coreTypes.jl")
 
 export numberOfViolatedConstraints, overallConstraintViolationDegree, isFeasible
